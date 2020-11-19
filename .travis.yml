@@ -10,3 +10,11 @@ script:
   - npm install
   - echo 'Testing'
   - npm test
+herokuherokudeploy:
+  provider: heroku
+  api_key:
+    secure: AzXgFTqmczCx/eMA4EosnS3p4X/+GK5GrqH5jFUgqX6KAWjiv0L2be7GhSRgaHlR9Ht9w83Wi6kQScOARWuaH6Xw71+1AQGTzam9775D9EUqkyOTqo4hCfJZfpCQI8qwoba5NW4eKOLIC6rZIHn2ZY3+NZ80x06Ch1wEAi9aF8nQKEfHd6Knpn1NdclqNeOrN/QMF5FmXbEiDEf8dOkEsEm19u4V3GGTDbULWlltnT45wGrts+p7Aw+DtgeQE8PRmawK/g6auPwxm3dQ/+MnGKvxn268L5ekQ8O1oGsuO/dPMuGB2bIS9qoJBBghwBkUIIjpQoBh1GwGW8HWeM4ufk4GWHvYPlPP5rv5OGm/33t6Y8739Ag/iZjnjHNDfzhdroDkgoWZ79VyRS6QAZOBof6WFoYKxLiZaW/poV7oJ1NGT9U3+qnO7zqliUEIWKH8ulyJ4lq4wvD7wYIgDd8/HyNYWraFNlALThA3gEW9kLqD9tSLmfk2cb1zWoHQQ8iNrw5qDZ0pRymtkOk/j2MkYfBGS8OY9SSEGVrJ+y6VFj6xYCkvDkFj0DPZUsZuLJKeBQ8RLSeFZO+3X0lYvzb8PwsVUh9+7JH9UIv4SlqyWXLph3R08dzLZpQO9wfLZ4EyKCsZ3Yl6fxrzbJTF4DNC7XD0Ix/I8zyd/bHx//qZWWU=
+  app: 5-ci-cd
+  on:
+    repo: MaximeChartier/5-ci-cd
+  skip_cleanup: true
