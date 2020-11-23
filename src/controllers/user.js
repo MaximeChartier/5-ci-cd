@@ -1,4 +1,3 @@
-const { use } = require("chai");
 const client = require("../dbClient");
 
 module.exports = {
